@@ -1,25 +1,8 @@
-## [An Actor-Critic Algorithm for Sequence Prediction](http://arxiv.org/abs/1607.07086)
+## [Radiomics: Extracting more information from medical images using advanced feature analysis](https://www.sciencedirect.com/science/article/abs/pii/S0959804911009993)
 
-TLDR; The authors propose to use the Actor Critic framework from Reinforcement Learning for Sequence prediction. They train an actor (policy) network to generate a sequence together with a critic (value) network that estimates the q-value function. Crucially, the actor network does not see the ground-truth output, but the critic does. This is different from LL (log likelihood) where errors are likely to cascade. The authors evaluate their framework on an artificial spelling correction and a real-world German-English Machine Translation tasks, beating baselines and competing approaches in both cases.
-
-#### Key Points
-
-- In LL training, the model is conditioned on its own guesses during search, leading to error compounding.
-- The critic is allowed to see the ground truth, but the actor isn't
-- The reward is a task-specific score, e.g. BLEU
-- Use bidirectional RNN for both actor and critic. Actor uses a soft attention mechanism.
-- The reward is partially receives at each intermediate step, not just at the end
-- Framework is analogous to TD-Learning in RL
-- Trick: Use additional target network to compute q_t (see Deep-Q paper) for stability
-- Trick: Use delayed actor (as in Deep Q paper) for stability
-- Trick: Put constraint on critic to deal with large action spaces (is this analogous to advantage functions?)
-- Pre-train actor and critic to encourage exploration of the right space
-- Task 1: Correct corrupt character sequence. AC outperforms LL training. Longer sequences lead to stronger lift.
-- Task 2: GER-ENG Machine Translation: Beats LL and Reinforce models
-- Qualitatively, critic assigns high values to words that make sense
-- BLUE scores during training are lower than those of LL model - Why? Strong regularization? Can't overfit the training data.
+Importance of limiting the use of invasive biopsies for solid cancers as these are spatially and hetrogenous. Opportunity to use advanced feature analysis for medical images to capture molecular and intra-tumoural heterogeneity for these types of tumors, refered to as Radiomics. Paper highlights the advancements made in medical devices, such as the use of merged technologies CT and PET scan. The use of imaging markers, e.g. hypoxia markers using PET scans and the use of automated image analysis for automated detection. Radiomics pipeline is described by imaging, segmentation, feature extraction and analysis of the features, with the goal to provide accurate risk stratification by incorporating the imaging traits into predictive models for treatment outcome and to evaluate their added value to commonly used predictors. Hopeful future goals are described such as infering phenotypes or gene-protein signatures. 
 
 #### Notes
 
-- Why does the sequence length for spelling prediction only go up to 30? This seems very short to me and something that an LSTM should be able to handle quite easily. Would've like to see much longer sequences.
-
+- External datasets are vary important to establish causal relationship between gene expression patterns and image features.
+- Multi-centric setting would also provide more impact

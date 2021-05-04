@@ -1,0 +1,9 @@
+## [Radiomics approach to distinguish between well differentiated liposarcomas and lipomas on MRI](https://academic.oup.com/bjs/article/106/13/1800/6121045)
+
+Well differentiated liposarcoma (WDLPS) can be difficult to distinquish from lipoma, currently tested by MDM2 amplification, thus requiring biopsy. T1 imaging data of 116 tumors from 41 different scanners were used. Same pipeline as: [Differential diagnosis and mutation stratification of desmoid-type fibromatosis on MRI using radiomics](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Differential_diagnosis_and_mutation_stratification_of_desmoid_type_fibromatosis_on_MRI_using_radiomics.md) using optimal radiomics classification (WORC) toolbox, first segmentation followed by automated feature extraction and machine learning model selection, choosing the best performing 50 out of 100.000 workflows in an ensemble. workflow using imaging features outperfomed all others, which used either one or a combination of patient data, manually selected features or volume alone. Additional T2 imaging from MRI further improved the model. Futhermore, the workflow was able to outperform radiologist. Conclusion WDLPS can be distinquished from lipoma using radiomics.
+
+#### Notes
+
+- Tested image and patient feature models tested on patients from te volume matched cohort, as volume is generally larger for WDLPS.
+- Also 'baseline' model was trained using only volume, as again WDLPS are generally larger than lipoma. 
+- Model presented in this paper is highly generalizable due to the vast number of scanners used for imaging.
