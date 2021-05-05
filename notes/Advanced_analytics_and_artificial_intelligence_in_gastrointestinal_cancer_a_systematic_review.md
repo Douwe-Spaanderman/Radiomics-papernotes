@@ -1,0 +1,8 @@
+## [Advanced analytics and artificial intelligence in gastrointestinal cancer: a systematic review of radiomics predicting response to treatment](https://link.springer.com/article/10.1007%2Fs00259-020-05142-w)
+
+Database search review on radiomics predicting response to treatment in patients with a gastrointestinal tumor. 60 papers identified with 37 having indication of having predictive value. Radiomics quality score (RQS) was used to provide a standardized evaluation criteria. Generally, more of the same see ["Systematic review of sarcomas radiomics studies: Bridging the gap between concepts and clinical applications?"](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Systematic_review_of_sarcomas_radiomics_studies_bridging_the_gap_between_concepts_and_clinical_application.md) just now for gastrointestinal. Noteworthy, is the higher quality or assesment of predictive value of radiomics in this field. different types of gastrointestinal tumors were assessed and discussed which types of machine learning applications were used. Importantly, in all the field that deep learning applications were used, they outperformed traditional machine learning application. In conclusion, this paper highlights the potential of radiomics in predicting response to treatment in patients with GI cancer
+
+#### Notes
+
+- Interesting part is the angle of predicting response to treatment as a primary measurments.
+- Many studies reviewed analyzed small populations, lacked external validation resulting in possible overfitted and poorly generalizable models.

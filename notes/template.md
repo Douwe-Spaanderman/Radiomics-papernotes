@@ -1,4 +1,4 @@
-## [Title](some link)
+## [Title](link)
 
 TLDR;
 
