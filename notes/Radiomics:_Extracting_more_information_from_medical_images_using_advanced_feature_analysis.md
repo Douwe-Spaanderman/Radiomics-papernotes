@@ -4,5 +4,5 @@ Importance of limiting the use of invasive biopsies for solid cancers as these a
 
 #### Notes
 
-- External datasets are vary important to establish causal relationship between gene expression patterns and image features.
+- External datasets are very important to establish causal relationship between gene expression patterns and image features.
 - Multi-centric setting would also provide more impact
