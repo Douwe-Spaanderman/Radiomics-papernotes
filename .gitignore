@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Extra
-..DS_Store
+.DS_Store
 .vscode
 papers/
 preprint/
