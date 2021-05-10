@@ -4,8 +4,8 @@ Neural Architecture Search (NAS) paper which focusses on utilizing various fully
 
 #### Notes
 
-- Very cool NAS paper, with very promosing results for automated segmentaion of medical images.
+- Very cool NAS paper, with very promising results for automated segmentation of medical images.
 - The switching between 2D, 3D and pseudo 3D seems interesting
-- I don't completly agree with their generalizability statement as for each dataset the V-NAS search has to be done to outperform state of the art, this could possible still lead to overfitting. Also hinted towards by the lack of consistency, in my eyes, for the same network structure, i.e. selected layer types, between datasets.
+- I don't completely agree with their generalizability statement as for each dataset the V-NAS search has to be done to outperform state of the art, this could possible still lead to overfitting. Also hinted towards by the lack of consistency, in my eyes, for the same network structure, i.e. selected layer types, between datasets.
 - Disadvantage of 3D was the large number of parameters required to be trained, however I feel like this should still be a problem as the search space is only increased due to the convolution selection parameter at each layer.
 - I would have liked to see additional benchmarks

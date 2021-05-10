@@ -1,0 +1,11 @@
+## [Tumor grading of soft tissue sarcomas using MRI-based radiomics](https://www.sciencedirect.com/science/article/pii/S2352396419305821?via%3Dihub)
+
+This paper focusses on tumor grading of soft tissue tumors based on 138 patients from the technical university of Munich (TUM). French federation of cancer centers sarcoma group (FNCLCC) was used to define tumor grade based on biospies prior to therapy. Additionally, 103 patients from the University of Washington, Seattle (UW), were used as an external validation set. Grading predictions split between low-grade vs high-grade (binary classification problem). MRI images were first segmented manually by multiple radiologist (0.91 dice similarity coefficient, so a good agreement). For feature extraction [pyradiomics](https://pyradiomics.readthedocs.io/en/latest/) was used which resulted in 24, 22 and 13 features with non-zero coefficients for T2FS, T1FSGd and combined models. T2FS input performed best and clearly outperformed clinical-volume baseline both on training/test dataset as on the external validation set. 7 models with inbuild feature reduction were assessed to do classification (lasso, random forest, Logitboost, decision tree, SVM and neural network) and Lasso without prior PCA was finally chosen. Direct stratification for patients overall survival (OS) from low- and high-grade performed well for all three models, especially T1 MRI for the validation set. Additionally, multivariate nomograms by combining AJCC with the grading model gave even more insight into OS predictions. However direct OS predictions from radiomics didn't perform well.
+
+#### Notes
+
+- fat-saturated T2-weighted (T2FS) better performance than contrast-enhanced T1-weighted fat saturated (T1FSGd) or combined
+- paper has a good extensive external validation set
+- both training and validation set were skewed towards high-grade tumors
+- G1 (low-grade) and G2 + G3 (high-grade)
+- OS is interesting as it works well for grading+AJCC but not so well if directly inferred by model

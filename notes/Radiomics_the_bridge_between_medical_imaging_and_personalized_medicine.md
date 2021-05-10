@@ -1,0 +1,9 @@
+## [Radiomics: the bridge between medical imaging and personalized medicine](https://www.nature.com/articles/nrclinonc.2017.141)
+
+This review discusses the process of radiomics including the latest (until 2017) developments in this field, the pitfalls, challenges and opportunities to improve clinical-decision making for personalized precision oncology. It emphasizes the importance of using standardized imaging protocols which are reproducible and provides an example of such a pipeline. Although this paper focusses on many areas such as segmentation, feature extraction and selection, and modeling methodologies. Here, I would just like to focus on a few. Such as the call to use external datasets and to assess whether the model is predictive for the target population or just for a particular subset of samples analyzed. Furthermore, it is very important to, also in regard to the previous point, to report scientific data with open-access. As data often consists of patient data, this review proposes to at least publish numerical values of their investigated features computed. Next, there is an urgent need for homogeneous evaluation of new developed models. In this regard, they prepose the radiomics quality score (RQS) to aid assessment of both past and future radiomic studies. Paper also discusses the potential for radiogenomics to infer specific gene-expression patterns that inform the underlying cellular pathophysiology without the need for histopathology or molecular testing. Additionally radiomics could be used to detect radiosensitivity and biomarkers for immunotherapy.
+
+#### Notes
+
+- A very good review about radiomics
+- Paper for radiomics quality score (RQS)
+- Something very interesting is their take on radiomics as a clinical decision-support system in time. 
