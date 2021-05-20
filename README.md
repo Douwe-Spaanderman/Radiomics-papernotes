@@ -1,6 +1,6 @@
 Inspired by [Denny Britz][1] and [Daniel Takeshi][2].
 
-This repo contains notes for research papers that I've read. Papers are broadly separated by several categories and year of publication. Next, each paper contains a link to brief paper summaries, including notes, and has a links to their original source. Reviews are denoted as :green_book: and research papers as :blue_book:
+This repo contains notes for research papers that I've read. Papers are broadly separated by traditional vs deep radiomics, deep learning methods and year of publication. Next, each paper contains a link to brief paper summaries, including notes, and has a links to their original source. Reviews are denoted as :green_book: and research papers as :blue_book:
 
 Content:
 - TODO
@@ -9,12 +9,13 @@ Content:
 Research Papers from here
 
 example: 
+- [TODO] title [[paper](link)]
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/title.md) research_title [[paper](link)]
 - [:green_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/title.md) review_title [[paper](link)]
 
 -->
 
-### Radiomics
+### Traditional Radiomics
 
 #### 2021
 - :blue_book: Preprint Starmans et al.
@@ -25,7 +26,7 @@ example:
 - [:green_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/A_bayesian_approach_for_diagnostic_accuracy_of_malignant_peripheral_nerve_sheath_tumor_a_systematic_review_and_meta_analysis.md) A Bayesian approach for diagnostic accuracy of malignant peripheral nerve sheath tumors: a systematic review and meta-analysis [[paper](https://academic.oup.com/neuro-oncology/article/23/4/557/6039224)]
 - [:green_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Advanced_analytics_and_artificial_intelligence_in_gastrointestinal_cancer_a_systematic_review.md) Advanced analytics and artificial intelligence in gastrointestinal cancer: a systematic review of radiomics predicting response to treatment [[paper](https://link.springer.com/article/10.1007%2Fs00259-020-05142-w)]
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Differential_diagnosis_and_molecular_stratification_of_gastrointestinal_stromal_tumors_on_CT_images_using_a_radiomics_approach.md) Differential diagnosis and molecular stratification of gastrointestinal stromal tumors on CT images using a radiomics approach [[paper](https://arxiv.org/abs/2010.06824)]
-- [:green_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Systematic_review_of_sarcomas_radiomics_studies_bridging_the_gap_between_concepts_and_clinical_application.md) Systematic review of sarcomas radiomics studies: Bridging the gap between concepts and clinical applications? [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0720048X20304721)]
+- [:green_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Systematic_review_of_sarcomas_radiomics_studies_bridging_the_gap_between_concepts_and_clinical_application.md) Systematic review of sarcomas radiomics studies: Bridging the gap be  tween concepts and clinical applications? [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0720048X20304721)]
 
 #### 2019
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Radiomics_approach_to_distinquish_between_well_diiferentiated_liposarcomas_and_lipomas_on_MRI.md) Radiomics approach to distinguish between well differentiated liposarcomas and lipomas on MRI [[paper](https://academic.oup.com/bjs/article/106/13/1800/6121045)]
@@ -52,6 +53,19 @@ example:
 #### 2010
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Machine_learning_study_of_several_classifiers_trained_with_texture_analysis_features_to_differentiate_benign_from_malignant_soft_tissue.md) Machine learning study of several classifiers trained with texture analysis features to differentiate benign from malignant soft-tissue tumors in T1-MRI images [[paper](https://onlinelibrary.wiley.com/doi/full/10.1002/jmri.22095)]
 
+### Deep Radiomics
+
+#### 2021
+
+#### 2020
+- [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/An_enhanced_deep_learning_approach_for_brain_cancer_MRI_images_classification_using_residual_networks.md) An enhanced deep learning approach for brain cancer MRI images classification using residual networks [[paper](https://www.sciencedirect.com/science/article/pii/S0933365719306177)]
+
+#### 2019
+- [TODO] Deep Learning Predicts Lung Cancer Treatment Response from Serial Medical Imaging [[paper](https://clincancerres.aacrjournals.org/content/25/11/3266)]
+
+#### 2018
+- [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Visual_explanations_from_deep_3D_convolutional_neural_networks_for_alzheimer_diesease_classification.md) Visual Explanations From Deep 3D Convolutional Neural Networks for Alzheimer's Disease Classification [[paper](https://arxiv.org/abs/1803.02544)]
+
 ### Deep Learning Methods
 
 #### 2021
@@ -59,11 +73,16 @@ example:
 
 #### 2020
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Supervised_Contrastive_Learning.md) Supervised Contrastive Learning [[paper](https://arxiv.org/abs/2004.11362)]
+- [TODO] Would Mega-scale Datasets Further Enhance Spatiotemporal 3D CNNs? [[paper](https://arxiv.org/abs/2004.04968)]
 
 #### 2019
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/V_nas_neural_architecture_search_for_volumetric_medical_image_segmentation.md) V-NAS: Neural Architecture Search for Volumetric Medical Image Segmentation [[paper](https://arxiv.org/abs/1906.02817)]
 - [TODO] An overview of deep learning in medical imaging focusing on MRI [[paper](https://www.sciencedirect.com/science/article/pii/S0939388918301181)]
 - [TODO] AutoML: A Survey of the State-of-the-Art [[paper](https://arxiv.org/abs/1908.00709)]
+- [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Attention_gated_networks_learning_to_leverage_salient_regions_in_medical_images.md) Attention gated networks: Learning to leverage salient regions in medical images [[paper](https://www.sciencedirect.com/science/article/pii/S1361841518306133)]
+
+#### 2018
+- [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Mask_R_CNN.md) Mask R-CNN [[paper](https://arxiv.org/abs/1703.06870)]
 
 #### 2015
 - [TODO] Domain-Adversarial Training of Neural Networks [[paper](https://arxiv.org/abs/1505.07818)]
