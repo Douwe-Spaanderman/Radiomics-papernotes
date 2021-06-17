@@ -62,6 +62,7 @@ example:
 
 #### 2019
 - [TODO] Deep Learning Predicts Lung Cancer Treatment Response from Serial Medical Imaging [[paper](https://clincancerres.aacrjournals.org/content/25/11/3266)]
+- [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Med3D_transfer_learning_for_3D_medical_image_analysis.md) Med3D Transfer Learning for 3D Medical Image Analysis [[paper](https://arxiv.org/abs/1904.00625)]
 
 #### 2018
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Visual_explanations_from_deep_3D_convolutional_neural_networks_for_alzheimer_diesease_classification.md) Visual Explanations From Deep 3D Convolutional Neural Networks for Alzheimer's Disease Classification [[paper](https://arxiv.org/abs/1803.02544)]
@@ -73,13 +74,14 @@ example:
 
 #### 2020
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Supervised_Contrastive_Learning.md) Supervised Contrastive Learning [[paper](https://arxiv.org/abs/2004.11362)]
-- [TODO] Would Mega-scale Datasets Further Enhance Spatiotemporal 3D CNNs? [[paper](https://arxiv.org/abs/2004.04968)]
+- [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Would_mega_scale_datasets_further_enhance_spatiotemporal_3D_CNNs.md) Would Mega-scale Datasets Further Enhance Spatiotemporal 3D CNNs? [[paper](https://arxiv.org/abs/2004.04968)]
 
 #### 2019
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/V_nas_neural_architecture_search_for_volumetric_medical_image_segmentation.md) V-NAS: Neural Architecture Search for Volumetric Medical Image Segmentation [[paper](https://arxiv.org/abs/1906.02817)]
 - [TODO] An overview of deep learning in medical imaging focusing on MRI [[paper](https://www.sciencedirect.com/science/article/pii/S0939388918301181)]
 - [TODO] AutoML: A Survey of the State-of-the-Art [[paper](https://arxiv.org/abs/1908.00709)]
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Attention_gated_networks_learning_to_leverage_salient_regions_in_medical_images.md) Attention gated networks: Learning to leverage salient regions in medical images [[paper](https://www.sciencedirect.com/science/article/pii/S1361841518306133)]
+- [TODO] 3D Anisotropic Hybrid Network: Transferring Convolutional Features from 2D Images to 3D Anisotropic Volumes [[paper](https://arxiv.org/abs/1711.08580)]
 
 #### 2018
 - [:blue_book:](https://github.com/Douwe-Spaanderman/Radiomics-papernotes/blob/main/notes/Mask_R_CNN.md) Mask R-CNN [[paper](https://arxiv.org/abs/1703.06870)]
